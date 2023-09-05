@@ -7,4 +7,4 @@ WORKDIR /src
 ## Copiando o arquivo jar para a pasta
 COPY /target/*.jar /src/test.jar
 ##Lista de comandos a serem execultadas
-ENTRYPOINT [ "java", "-jar", "src/test.jar" ]
+ENTRYPOINT [ "java", "-jar", "/src/test.jar" ]
